@@ -255,7 +255,7 @@ section.tight { padding: 64px 0; }
 
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1px;
   background: var(--line);
   border: 1px solid var(--line);
@@ -501,7 +501,7 @@ section.tight { padding: 64px 0; }
 
 @media (max-width: 880px) {
   .main-nav { display: none; }
-  .contact-grid { grid-template-columns: 1fr; }
+  .contact-grid { grid-template-columns: 1fr 1fr; }
   .model-grid { grid-template-columns: 1fr 1fr; }
   .category-count { padding-left: 0; }
 }
