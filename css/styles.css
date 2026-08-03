@@ -145,6 +145,23 @@ img { max-width: 100%; display: block; }
   width: 100%;
 }
 
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
+  margin-bottom: 22px;
+}
+
+.kicker-badge {
+  height: 18px;
+  width: auto;
+  vertical-align: -4px;
+  margin-right: 7px;
+}
+
 .hero-kicker {
   font-family: var(--font-mono);
   font-size: 13px;
