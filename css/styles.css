@@ -128,7 +128,7 @@ img { max-width: 100%; display: block; }
 .hero-media {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(14,14,16,0.15) 0%, rgba(14,14,16,0.95) 88%), #1a1a1d;
+  background: linear-gradient(180deg, rgba(14,14,16,0.35) 0%, rgba(14,14,16,0.97) 88%), #1a1a1d;
 }
 
 .hero-media img {
@@ -535,6 +535,8 @@ section.tight { padding: 64px 0; }
   .model-grid { grid-template-columns: 1fr; }
   .models-cta { padding: 36px 26px; }
   .category-tabs { top: 0; }
+  .hero { min-height: 62vh; }
+  .hero-media img { object-position: center 60%; }
 }
 
 /* Reduced motion */
