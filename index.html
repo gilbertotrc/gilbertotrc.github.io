@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gilberto Cars - Asesor Changan</title>
+    <!-- Fuente elegante similar a la web oficial -->
+    <link href="https://googleapis.com" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Montserrat', sans-serif; }
+        body { background-color: #f8f9fa; color: #111; text-align: center; }
+        
+        /* Tarjeta de Presentación (Cabecera) */
+        .perfil { background: #111; color: #fff; padding: 40px 20px; }
+        .perfil img { width: 120px; height: 120px; border-radius: 50%; border: 3px solid #fff; margin-bottom: 15px; object-fit: cover; }
+        .perfil h1 { font-size: 24px; font-weight: 700; margin-bottom: 5px; letter-spacing: 1px; }
+        .perfil p { font-size: 14px; color: #ccc; margin-bottom: 20px; }
+        
+        /* Botones de Contacto Directo */
+        .contacto-rapido { display: flex; justify-content: center; gap: 15px; max-width: 400px; margin: -20px auto 40px auto; padding: 0 20px; }
+        .btn-contacto { flex: 1; background: #00e676; color: white; padding: 12px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 14px; box-shadow: 0 4px 10px rgba(0,0,0,0.15); transition: 0.3s; }
+        .btn-contacto.telefono { background: #007bff; }
+
+        /* Sección de Modelos (Réplica Changan) */
+        .seccion-modelos { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .titulo-seccion { font-size: 20px; font-weight: 700; text-align: left; margin: 40px 0 20px 10px; letter-spacing: 2px; border-left: 4px solid #111; padding-left: 10px; }
+        
+        /* Rejilla de Autos */
+        .grid-modelos { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; padding: 10px; }
+        .tarjeta-auto { background: white; border-radius: 0px; padding: 25px; text-align: left; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #eee; transition: 0.3s; }
+        .tarjeta-auto:hover { box-shadow: 0 8px 20px rgba(0,0,0,0.1); }
+        .tarjeta-auto img { width: 100%; height: auto; margin-bottom: 15px; }
+        .tarjeta-auto h3 { font-size: 18px; font-weight: 700; margin-bottom: 5px; letter-spacing: 1px; }
+        .tarjeta-auto .precio { font-size: 14px; color: #666; margin-bottom: 20px; }
+        
+        /* Botones del Auto */
+        .botones-auto { display: flex; gap: 10px; }
+        .btn-auto { flex: 1; text-align: center; padding: 10px; font-size: 12px; font-weight: 700; text-decoration: none; text-transform: uppercase; letter-spacing: 1px; transition: 0.3s; }
+        .btn-cotizar { background: #111; color: white; border: 1px solid #111; }
+        .btn-cotizar:hover { background: #333; }
+        .btn-ficha { background: transparent; color: #111; border: 1px solid #111; }
+        .btn-ficha:hover { background: #111; color: white; }
+    </style>
+</head>
+<body>
+
+    <!-- 1. TU TARJETA DIGITAL (CABECERA) -->
+    <section class="perfil">
+        <!-- Reemplaza la URL de abajo por una foto tuya si lo deseas -->
+        <img src="https://placeholder.com" alt="Gilberto">
+        <h1>GILBERTO</h1>
+        <p>Asesor Digital de Ventas - Changan México</p>
+    </section>
+
+    <!-- 2. BOTONES DE ACCESO RÁPIDO -->
+    <div class="contacto-rapido">
+        <!-- REEMPLAZA EL TELÉFONO ABAJO (Mantén el formato sin espacios) -->
+        <a href="https://wa.me" class="btn-contacto" target="_blank">WhatsApp</a>
+        <a href="tel:+5218712190722" class="btn-contacto telefono">Llamar</a>
+    </div>
+
+    <!-- 3. SECCIÓN DE PRODUCTOS (REPLICANDO CHANGAN) -->
+    <main class="seccion-modelos">
+        
+        <h2 class="titulo-seccion">MODELOS PASAJEROS</h2>
+        <div class="grid-modelos">
+            
+            <!-- AUTO 1: ALSVIN -->
+            <div class="tarjeta-auto">
+                <!-- Puedes copiar las URLs de las imágenes de la web oficial de Changan -->
+                <img src="https://changan.mx" alt="Changan Alsvin" onerror="this.src='https://placeholder.com'">
+                <h3>ALSVIN</h3>
+                <p class="precio">Desde $294,900 MXN</p>
+                <div class="botones-auto">
+                    <!-- REEMPLAZA LAS XX POR TU TELÉFONO. Al dar clic, le dirá exactamente qué auto quiere cotizar -->
+                    <a href="https://wa.me" class="btn-auto btn-cotizar" target="_blank">Cotizar</a>
+                    <a href="https://changan.mx" class="btn-auto btn-ficha" target="_blank">Ver Más</a>
+                </div>
+            </div>
+
+            <!-- AUTO 2: CS35 PLUS TURBO -->
+            <div class="tarjeta-auto">
+                <img src="https://changan.mx" alt="CS35 Plus Turbo" onerror="this.src='https://placeholder.com'">
+                <h3>CS35 PLUS TURBO</h3>
+                <p class="precio">Desde $439,900 MXN</p>
+                <div class="botones-auto">
+                    <a href="https://wa.me" class="btn-auto btn-cotizar" target="_blank">Cotizar</a>
+                    <a href="https://changan.mx" class="btn-auto btn-ficha" target="_blank">Ver Más</a>
+                </div>
+            </div>
+
+            <!-- AUTO 3: UNI-K -->
+            <div class="tarjeta-auto">
+                <img src="https://changan.mx" alt="Changan UNI-K" onerror="this.src='https://placeholder.com'">
+                <h3>UNI-K</h3>
+                <p class="precio">Desde $799,900 MXN</p>
+                <div class="botones-auto">
+                    <a href="https://wa.me" class="btn-auto btn-cotizar" target="_blank">Cotizar</a>
+                    <a href="https://changan.mx" class="btn-auto btn-ficha" target="_blank">Ver Más</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+</body>
+</html>
