@@ -27,6 +27,11 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   background: var(--bg);
@@ -433,6 +438,7 @@ section.tight { padding: 64px 0; }
   justify-content: center;
   border-bottom: 1px solid var(--line);
   position: relative;
+  overflow: hidden;
 }
 
 .model-photo span {
